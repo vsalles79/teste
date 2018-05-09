@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1 align="center">Adiciona Contatos</h1>
+            <hr/>
+        </header>
+        
+        <article>
+            <h2>Preencha os dados</h2>
+            <form action="adicionacontato" method="get">
+                <label for="id_nome">Nome</label>
+                <input type="text" name="nome" id="id_nome"/> <br/>
+
+                <label for="id_email">E-mail</label>
+                <input type="email" name="email" id="id_email"/> <br/>
+
+                <label for="id_end">Endereço</label>
+                <input type="text" name="endereco" id="id_end"/> <br/>
+
+                <label for="id_data">Data de nascimento</label>
+                <input type="date" name="dataNascimento" id="id_data"/> <br/>
+
+                <input type="radio" name="genero" value="masculino" id="id_masc"/>
+                <label for="id_masc">Masculino</label>
+
+                <input type="radio" name="genero" value="feminino"  id="id_fem"/>
+                <label for="id_fem">Feminino</label> 
+                <p>
+                <input type="submit" value="Gravar"/>
+
+            </form>
+        </article>
+    </body>
+</html>
