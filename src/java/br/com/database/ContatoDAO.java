@@ -1,5 +1,4 @@
 package br.com.database;
-
 import br.com.bean.ContatoBean;
 import br.com.bean.Data;
 import java.sql.Connection;
